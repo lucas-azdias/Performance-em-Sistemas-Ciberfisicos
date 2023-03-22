@@ -12,9 +12,9 @@ outfile_words = 1000
 file_counter_stop = 100
 
 # Baixando arquivo
-# with open(default_folder + "/" + file_name, "wb") as file:
-#     file.write(requests.get(link_book, allow_redirects=True).content)
-#     file.close()
+with open(default_folder + "/" + file_name, "wb") as file:
+    file.write(requests.get(link_book, allow_redirects=True).content)
+    file.close()
 
 
 # Extraindo os dados
