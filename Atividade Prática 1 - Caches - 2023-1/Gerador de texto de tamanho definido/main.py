@@ -1,5 +1,4 @@
 import requests
-import PyPDF2
 
 
 default_folder = "result"
