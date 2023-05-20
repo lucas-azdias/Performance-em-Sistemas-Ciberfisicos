@@ -1,0 +1,51 @@
+LRU
+	User 1 - Aleatórios puro
+		Média de latência: 368932.5ns
+		Quantidade de cache miss: 179
+		Quantidade de cache hit: 21
+
+	User 2 - Aleatórios com distribuição de Poisson
+		Média de latência: 281407.5ns
+		Quantidade de cache miss: 130
+		Quantidade de cache hit: 70
+
+	User 3 - Aleatórios com peso para o intervalo de 30 a 40 de 33%
+		Média de latência: 289115.5ns
+		Quantidade de cache miss: 168
+		Quantidade de cache hit: 32
+
+
+LFU
+	User 1 - Aleatórios puro
+		Média de latência: 317351.5ns
+		Quantidade de cache miss: 178
+		Quantidade de cache hit: 22
+
+	User 2 - Aleatórios com distribuição de Poisson
+		Média de latência: 214673.5ns
+		Quantidade de cache miss: 149
+		Quantidade de cache hit: 51
+
+	User 3 - Aleatórios com peso para o intervalo de 30 a 40 de 33%
+		Média de latência: 277599.5ns
+		Quantidade de cache miss: 178
+		Quantidade de cache hit: 22
+
+
+FIFO
+	User 1 - Aleatórios puro
+		Média de latência: 399970.5ns
+		Quantidade de cache miss: 179
+		Quantidade de cache hit: 21
+
+	User 2 - Aleatórios com distribuição de Poisson
+		Média de latência: 264971.0ns
+		Quantidade de cache miss: 130
+		Quantidade de cache hit: 70
+
+	User 3 - Aleatórios com peso para o intervalo de 30 a 40 de 33%
+		Média de latência: 414956.5ns
+		Quantidade de cache miss: 168
+		Quantidade de cache hit: 32
+
+
